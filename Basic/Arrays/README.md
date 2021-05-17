@@ -24,7 +24,7 @@
         int a'[n]: the rotated array
 
 
-    Command/Script to Run Problem 1: ________________ (Fill this in when submitting)
+    Command/Script to Run Problem 1: python ArrayLeftRotation.py (Fill this in when submitting)
 
 ## Problem 2: Array Reversal
 
@@ -39,9 +39,11 @@
     Questions:
 
         a. Can we use the rotLeft function written above to achieve this?
+        Ans:yes! we can use rotLeft function written above to achieve this.At first we will rotate the array upto n-1 and will get last element in start then we will slice the first element from the rotated array and store it.Repeat the mentioned process with the other part of array upto n-1 times and at the end of each iteration concateneate the sliced elements with the result.At the end we will get our reversed Array.
 
         b. What will be the complexity of the program in terms of time if we
         solve it using rotLeft function?
+        Ans:The complexity of my rotLeft programme is O(n) so if we use this programme the time complexity of reverse programme will become O(n^2)
 
 
-    Command/Script to Run Problem 1: ________________ (Fill this in when submitting)
+    Command/Script to Run Problem 1: python ArrayReversal.py (Fill this in when submitting)

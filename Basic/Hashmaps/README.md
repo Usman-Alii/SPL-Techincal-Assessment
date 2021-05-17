@@ -22,7 +22,7 @@
         bool: 1 or 0
 
 
-    Command/Script to Run Problem 1: ________________ (Fill this in when submitting)
+    Command/Script to Run Problem 1: python SharedSubStrings.py
 
 ## Problem 2: Comparsion Of Two Maps
 
@@ -39,6 +39,7 @@
     Questions:
 
         Can we use this method to return how many elements match between two maps?
+        Yes! but for this purpose we need to make a little changes in the code for example we need to compare if two elements of dictionaries match and increase a counter whenever a match occurs and at the end i will return that counter.
 
 
-    Command/Script to Run Problem 2: ________________ (Fill this in when submitting)
+    Command/Script to Run Problem 2: python ComparisonOfTwoDictionaries.py

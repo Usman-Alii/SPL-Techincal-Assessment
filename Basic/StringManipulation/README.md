@@ -42,4 +42,4 @@
        Can we use the Tree data structure or hashing to optimize this?
 
 
-    Command/Script to Run Problem 2: ________________ (Fill this in when submitting)
+    Command/Script to Run Problem 2: python RemoveCharacterFromString.py
