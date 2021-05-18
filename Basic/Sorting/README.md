@@ -24,6 +24,9 @@
 
         Questions:
             How do we find the pivot in the array containing even number of elements?
+            Ans:we can find the pivot of an array containing even number of elements by taking an average of middle two elements.
+            
+            (Array[(size of array/2)]+Array[(size of array/2+1)])/2
 
 
     Command/Script to Run Problem 1: python DistributeNumbersAroundPivot.py 

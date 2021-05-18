@@ -24,7 +24,7 @@
         int a'[n]: the rotated array
 
 
-    Command/Script to Run Problem 1: python ArrayLeftRotation.py (Fill this in when submitting)
+    Command/Script to Run Problem 1: python ArrayLeftRotation.py
 
 ## Problem 2: Array Reversal
 
@@ -46,4 +46,4 @@
         Ans:The complexity of my rotLeft programme is O(n) so if we use this programme the time complexity of reverse programme will become O(n^2)
 
 
-    Command/Script to Run Problem 1: python ArrayReversal.py (Fill this in when submitting)
+    Command/Script to Run Problem 1: python ArrayReversal.py
