@@ -22,10 +22,13 @@
 
         Questions:
             How do we detect which pairs are identical? i.e. {2,3} and {3,2} are identical.
+            Ans: for this purpose I am using a list in which I place the elements of pair I found and next time I when find a pair I  check if I find it in my list then skip it otherwise add it in the result.
+
             Write a program to filter the identical pairs.
+            Ans: I am doing it in my solution.
 
 
-    Command/Script to Run Problem 1: ________________ (Fill this in when submitting)
+    Command/Script to Run Problem 1: python FindPairs.py
 
 ## Problem 2: Calculate The Frequency of Numbers in An Array
 
