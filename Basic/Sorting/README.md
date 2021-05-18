@@ -47,6 +47,7 @@
     Questions:
 
        Can we use the method DistributiveArray written above to achieve this?
+       Ans:we can use the DistributiveArray function to sort the array and then we can find maximum at the end of array.
 
 
-    Command/Script to Run Problem 2: ________________ (Fill this in when submitting)
+    Command/Script to Run Problem 2: python findMaxium.py
