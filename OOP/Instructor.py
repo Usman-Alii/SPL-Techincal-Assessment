@@ -1,19 +1,19 @@
 import User
 class Instructor(User):
-    designation=None
-    qulaification=None
+    __designation=None
+    __qulaification=None
 
     def __init__(self, des, qual):
-        self.designation = des
-        self.age = qual
+        self.__designation = des
+        self.__age = qual
 
-    def signIn():
+    def signIn(uName,pas):
         #defination
-        pass
+        User.__isSignedIn=True    #after authenticating from database
 
     def signOut():
         #defination
-        pass
+        User.__isSignedIn=False
 
     def addMarksOfStudents():
         #defination

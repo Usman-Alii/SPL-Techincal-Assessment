@@ -38,8 +38,6 @@
         string name = 'We Are Your Technology Partners' and char x = ' '
         returns 'WeAreYourTechnologyPartners'
 
-    Questions:
-       Can we use the Tree data structure or hashing to optimize this?
 
 
     Command/Script to Run Problem 2: python RemoveCharacterFromString.py

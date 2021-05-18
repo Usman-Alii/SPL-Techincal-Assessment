@@ -1,11 +1,11 @@
 class Assignments:
-    AssignmentId=None
-    AssignmentDescription=None
-    assignedTo=None
-    assignedBy=None
+    __AssignmentId=None
+    __AssignmentDescription=None
+    __assignedTo=None
+    __assignedBy=None
 
     def __init__(self, id, des,assignTo,assignBy):
-        self.AssignmentId = id
-        self.AssignmentDescription = des
-        self.assignedTo = assignTo
-        self.assignedBy =assignBy
+        self.__AssignmentId = id
+        self.__AssignmentDescription = des
+        self.__assignedTo = assignTo
+        self.__assignedBy =assignBy

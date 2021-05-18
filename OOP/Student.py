@@ -1,19 +1,23 @@
 import User
+import Assignments
 class Student(User):
-    rollNo=None
-    status=None
+    __rollNo=None
+    __status=None
+    __assignments=[]
 
     def __init__(self, rolno, stats,fName,lName,uName,pas):
-        self.rollNo = rolno
-        self.status = stats
+        self.__rollNo = rolno
+        self.__status = stats
         User.__init__(fName,lName,uName,pas)
-    def signIn():
-        #defination
-        pass
+
+    def signIn(uName,pas):
+        
+        User.__isSignedIn=True    #after authenticating from database
+
 
     def signOut():
         #defination
-        pass
+        User.__isSignedIn=False
 
     def viewMarks():
         #defination
@@ -32,4 +36,4 @@ class Student(User):
         pass
 
     def getProfile(self):
-        print(self.status)
+        print(self.__status)
